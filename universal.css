@@ -13,6 +13,10 @@ html {
 	background: url(alien-tech.jpg) no-repeat center center fixed;
 }
 
+.usumoio-class {
+	background: url(deeper-dive.jpg) no-repeat center center fixed;
+}
+
 div {
 	font-family: Helvetica
 }
@@ -35,7 +39,8 @@ a {
 	border-width: 7px;
 	border-radius: 6px;
 	border-style: solid;
-	display: block;
+	display: flex;
+	flex-direction: column;
 }
 
 .inner-div {
@@ -48,7 +53,7 @@ a {
 
 .home-button {
 	display: block;
-	float: left;
+	/*float: left;*/
 	padding: 3px 3px 3px 3px;
 	margin: 1px 1px 1px 1px;
 	border-width: 1px;
