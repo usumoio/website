@@ -1,0 +1,66 @@
+
+
+div {
+    font-family: Helvetica
+}
+
+span {
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+html {
+    background: url(./assets/alien-tech.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main-board {
+    margin: 50px 10px 10px 50px;
+    background-color: white;
+    border-color: grey;
+    border-width: 12px;
+    border-radius: 7px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    max-width: 445px;
+    min-height: 400px;
+    justify-content: space-between;
+}
+
+.title-section {
+    font-size: 56px;
+    text-align: center;
+}
+
+.list-section {
+    font-size: 20px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basic-button {
+    padding: 4px 4px 4px 4px;
+    margin: 3px 3px 3px 3px;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: grey;
+    border-style: solid;
+    max-width: 70px;
+    min-width: 70px;
+    text-align: center;
+}
+
+
+
