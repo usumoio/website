@@ -1,4 +1,8 @@
+/* root css doc controlling all style on the site  */
 
+:root {
+    --main-color: #818893;
+}
 
 div {
     font-family: Helvetica
@@ -24,7 +28,7 @@ html {
 .main-board {
     margin: 50px 10px 10px 50px;
     background-color: white;
-    border-color: grey;
+    border-color: var(--main-color);
     border-width: 12px;
     border-radius: 7px;
     border-style: solid;
@@ -42,25 +46,58 @@ html {
 }
 
 .list-section {
-    font-size: 20px;
 }
 
-.button-section {
+.nav-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.basic-button {
+.button-section {
+    margin: 40px 0px 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-button {
     padding: 4px 4px 4px 4px;
     margin: 3px 3px 3px 3px;
     border-width: 2px;
     border-radius: 2px;
-    border-color: grey;
+    border-color: var(--main-color);
     border-style: solid;
     max-width: 70px;
     min-width: 70px;
     text-align: center;
 }
 
+.main-button {
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    margin: 10px;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: var(--main-color);
+    border-style: solid;
+    text-align: center;
+    background-color: white;
+}
 
+.react-link {
+    font-size: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    line-height: 140px;
+}
+
+.text-section {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 

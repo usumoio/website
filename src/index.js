@@ -4,10 +4,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import {LowerNavButton} from './components/lower_nav_button';
+import {LowerNav} from './components/lower_nav';
+import {MainButton} from './components/main_button';
 import {About} from './pages/about';
 
 import './universal.css';
+
+const links = {
+    about: 'about',
+    home: 'home',
+    magic: 'magic'
+}
 
 const App = () => {
 
@@ -20,14 +27,13 @@ const App = () => {
                 <span>USUMOIO.COM</span>
             </div>
 
+            <div class='button-section'>
+                <MainButton buttonText={'Magic'} link={links.magic} />
+                <MainButton buttonText={'About'} link={links.about} />
+            </div>
 
-            <ul class='list-section'>
-                <li><a href="usumoio.html">USUMOIO Stuff</a></li>
-                <li><Link to="/about">About</Link></li>
-            </ul>
 
-
-            <LowerNavButton />
+            <LowerNav />
 
         </div>
 
