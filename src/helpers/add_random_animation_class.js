@@ -15,13 +15,14 @@ export function addRandomAnimationClass () {
     // main-button-grow
     // main-button-shrink
     // main-button-color-flip
+    // main-button-checkered
 
     switch(randomness) {
         case 0:
             randomAnimationClass = 'main-button-flip-left-right';
             break;
         case 1:
-            randomAnimationClass = 'main-button-flip-up-down';
+            randomAnimationClass = 'main-button-checkered';
             break;
         case 2:
             randomAnimationClass = 'main-button-rotate';
