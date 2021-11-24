@@ -5,36 +5,61 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {LowerNav} from './components/lower_nav';
-import {MainButton} from './components/main_button';
 import {About} from './pages/about';
 import {Magic} from './pages/magic';
+import {News} from './pages/news';
+import {Stuff} from './pages/stuff';
+import {Projects} from './pages/projects';
+import {Random} from './pages/random';
+import {TitleSection} from './components/title_section';
+import { buildButtonArrayAsHtml } from './helpers/button_list_helpers';
 
 import './universal.css';
 
-const links = {
-    about: 'about',
-    home: 'home',
-    magic: 'magic',
-    stuff: 'stuff'
-}
-
 const App = () => {
+
+    const buttonArray = [
+        {
+            link: 'magic',
+            isExternal: false,
+            buttonText: 'Magic',
+        },
+        {
+            link: 'stuff',
+            isExternal: false,
+            buttonText: 'USUMOIO Stuff',
+        },
+        {
+            link: 'news',
+            isExternal: false,
+            buttonText: 'News',
+        },
+        {
+            link: 'projects',
+            isExternal: false,
+            buttonText: 'Projects',
+        },
+        {
+            link: 'random',
+            isExternal: false,
+            buttonText: 'Other Random Stuff',
+        },
+        {
+            link: 'about',
+            isExternal: false,
+            buttonText: 'About',
+        },
+    ];
 
     return (
 
+        <div className='main-board'>
 
-        <div class='main-board'>
+            <TitleSection title={'USUMOIO.COM'} />
 
-            <div class='title-section'>
-                <span>USUMOIO.COM</span>
+            <div className='button-section'>
+                {buildButtonArrayAsHtml(buttonArray)}
             </div>
-
-            <div class='button-section'>
-                <MainButton buttonText={'Magic'} link={links.magic} />
-                <MainButton buttonText={'USUMOIO Stuff'} link={links.stuff} />
-                <MainButton buttonText={'About'} link={links.about} />
-            </div>
-
 
             <LowerNav />
 
@@ -50,6 +75,10 @@ ReactDOM.render(
             <Route path="/" element={<App />} />
             <Route path="about" element={<About />} />
             <Route path="magic" element={<Magic />} />
+            <Route path="news" element={<News />} />
+            <Route path="stuff" element={<Stuff />} />
+            <Route path="Projects" element={<Projects />} />
+            <Route path="Random" element={<Random />} />
         </Routes>
     </BrowserRouter>,
     document.getElementById('root')

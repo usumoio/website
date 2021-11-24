@@ -2,6 +2,7 @@
  * about page of the app
  */
 import {LowerNav} from '../components/lower_nav';
+import {TitleSection} from '../components/title_section';
 
 export const About = () => {
 
@@ -10,9 +11,7 @@ export const About = () => {
 
         <div class='main-board'>
 
-            <div class='title-section'>
-                <span>USUMOIO.COM</span>
-            </div>
+            <TitleSection title={'ABOUT'} />
 
             <div class='text-section'>
                 <p>Hi. I'm Mike Spivack. This is my website. Its pretty simple. I'm using it to showcase a few of my ideas.</p> 

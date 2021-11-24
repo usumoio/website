@@ -5,48 +5,51 @@ import {LowerNav} from '../components/lower_nav';
 import { buildButtonArrayAsHtml } from '../helpers/button_list_helpers';
 import {TitleSection} from '../components/title_section';
 
-export const Magic = () => {
+export const News = () => {
 
     const buttonArray = [
         {
-            link: 'https://www.mtgstocks.com/news',
+            link: 'https://www.bbc.com/news',
             isExternal: true,
-            buttonText: 'Magic Stocks',
+            buttonText: 'The BBC',
         },
         {
-            link: 'https://edhrec.com/top/salt',
+            link: 'https://www.reuters.com/',
             isExternal: true,
-            buttonText: 'EDH Salt',
+            buttonText: 'Reuters',
         },
         {
-            link: 'https://tappedout.net/mtg-decks/the-worldfire/',
+            link: 'https://news.ycombinator.com/',
             isExternal: true,
-            buttonText: 'The WorldFire',
+            buttonText: 'Hacker News',
         },
         {
-            link: 'https://tappedout.net/mtg-decks/eon-prison-1/',
+            link: 'https://www.npr.org/sections/news/',
             isExternal: true,
-            buttonText: 'Eon Prison',
+            buttonText: 'NPR',
         },
         {
-            link: 'https://tappedout.net/mtg-decks/the-mind-cage/',
+            link: 'https://www.motherjones.com/',
             isExternal: true,
-            buttonText: 'The Mind Cage',
+            buttonText: 'Mother Jones',
         },
         {
-            link: 'https://www.tcdecks.net/',
+            link: 'https://www.propublica.org/',
             isExternal: true,
-            buttonText: 'TC Decks',
+            buttonText: 'Pro Publica',
+        },
+        {
+            link: 'https://www.cbc.ca/news',
+            isExternal: true,
+            buttonText: 'The CBC',
         }
-
     ];
 
     return (
 
-
         <div class='main-board'>
 
-            <TitleSection title={'MAGIC'} />
+            <TitleSection title={'NEWS'} />
 
             <div class='button-section'>
                 {buildButtonArrayAsHtml(buttonArray)}
