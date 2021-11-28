@@ -3,10 +3,14 @@
  */
 import {LowerNav} from '../components/lower_nav';
 import { buildButtonArrayAsHtml } from '../helpers/button_list_helpers';
-import {TitleSection} from '../components/title_section';
-import {TextSection} from '../components/text_section';
+import { HeaderSection } from '../components/header_section';
+import { addRandomBackgroundImage } from '../helpers/add_random_background_image';
 
 export const News = () => {
+
+    addRandomBackgroundImage(0);
+
+    const text = 'Here are some news sources I check regularly. I think it is important for a person to be informed.';
 
     const buttonArray = [
         {
@@ -50,9 +54,7 @@ export const News = () => {
 
         <div className='main-board'>
 
-            <TitleSection title={'NEWS'} />
-
-            <TextSection text={'Here are some news sources I check regularly.'} />
+            <HeaderSection title={'NEWS'} text={text} />
 
             <div className='button-section'>
                 {buildButtonArrayAsHtml(buttonArray)}

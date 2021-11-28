@@ -3,10 +3,15 @@
  */
 import {LowerNav} from '../components/lower_nav';
 import { buildButtonArrayAsHtml } from '../helpers/button_list_helpers';
-import {TitleSection} from '../components/title_section';
 import Pdf from '../assets/michael_spivack_resume.pdf'
+import { HeaderSection } from '../components/header_section';
+import { addRandomBackgroundImage } from '../helpers/add_random_background_image';
 
 export const Stuff = () => {
+
+    addRandomBackgroundImage(0);
+
+    const text = `Here are some details on what I'm up to, both on and off the internet!`;
 
     const buttonArray = [
         {
@@ -33,17 +38,21 @@ export const Stuff = () => {
 
     return (
 
-        <div className='main-board'>
+        <>
+            <div className='main-board'>
 
-            <TitleSection title={'USUMOIO STUFF'} />
+                <HeaderSection title={'USUMOIO STUFF'} text={text} />
 
-            <div className='button-section'>
-                {buildButtonArrayAsHtml(buttonArray)}
+                <div className='button-section'>
+                    {buildButtonArrayAsHtml(buttonArray)}
+                </div>
+
+                <LowerNav />
+
             </div>
 
-            <LowerNav />
-
-        </div>
+            <div className='preload-images'></div>
+        </>
 
     );
 

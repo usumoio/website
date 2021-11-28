@@ -1,12 +1,16 @@
 /**
  * page for magic the gathering stuff of the app
  */
-import {LowerNav} from '../components/lower_nav';
+import { LowerNav } from '../components/lower_nav';
 import { buildButtonArrayAsHtml } from '../helpers/button_list_helpers';
-import {TitleSection} from '../components/title_section';
-import {TextSection} from '../components/text_section';
+import { HeaderSection } from '../components/header_section';
+import { addRandomBackgroundImage } from '../helpers/add_random_background_image';
 
 export const Magic = () => {
+
+    addRandomBackgroundImage(0);
+
+    const text = 'I think Magic the gathering is a really well made game. Here are some links to Magic resources I like. I hope you find them useful.';
 
     const buttonArray = [
         {
@@ -52,22 +56,22 @@ export const Magic = () => {
     ];
 
     return (
+        <>
 
+            <div className='main-board'>
 
-        <div className='main-board'>
+                <HeaderSection title={'MAGIC'} text={text} />
 
-            <TitleSection title={'MAGIC'} />
+                <div className='button-section'>
+                    {buildButtonArrayAsHtml(buttonArray)}
+                </div>
 
-            <TextSection text={'I think Magic the gathering is a well made game. Here are some links to Magic resources I like.'} />
+                <LowerNav />
 
-            <div className='button-section'>
-                {buildButtonArrayAsHtml(buttonArray)}
             </div>
-
-            <LowerNav />
-
-        </div>
-
+                
+            <div className='preload-images'></div>
+        </>
     );
 
 }

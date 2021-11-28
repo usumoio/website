@@ -9,8 +9,8 @@ export const LowerNav = () => {
     return (
 
         <div className='nav-section'>
-            <span className='nav-button'><Link className='nav-link' to="/">Home</Link></span>
-            <span className='nav-button'><Link className='nav-link' to="/about">About</Link></span>
+            <span className='nav-home'><Link className='nav-link' to="/">Home</Link></span>
+            <span className='nav-about'><Link className='nav-link' to="/about">About</Link></span>
         </div>
 
     );

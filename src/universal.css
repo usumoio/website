@@ -6,7 +6,7 @@
 
 :root {
     --main-color: #818893;
-    --main-background-color: black;
+    --main-background-color: white;
     --background-purple: #7b2cc9;
 }
 
@@ -25,54 +25,61 @@ a {
 
 .dive {
     background: url(./assets/deeper-dive.jpg);
+    background-attachment: fixed;
     transition: all 3s ease-in-out;
 }
 
 .tech {
     background: url(./assets/alien-tech.jpg);
+    background-attachment: fixed;
     transition: all 3s ease-in-out;
 }
 
 .cart {
     background: url(./assets/Cartographic.jpg);
+    background-attachment: fixed;
     transition: all 3s ease-in-out;
 }
 
 .cell {
     background: url(./assets/Cellular.jpg);
+    background-attachment: fixed;
     transition: all 3s ease-in-out;
 }
 
 .volc {
     background: url(./assets/Volcanic.jpg);
+    background-attachment: fixed;
     transition: all 3s ease-in-out;
 }
 
 .org {
     background: url(./assets/Organic.jpg);
+    background-attachment: fixed;
     transition: all 3s ease-in-out;
 }
 
 .strand {
     background: url(./assets/Strand.jpg);
+    background-attachment: fixed;
     transition: all 3s ease-in-out;
 }
 
 .struct {
     background: url(./assets/Structural-2.jpg);
+    background-attachment: fixed;
     transition: all 3s ease-in-out;
 }
 
 .preload-images {
-
-background: url(./assets/deeper-dive.jpg) no-repeat -9999px -9999px,
-    url(./assets/alien-tech.jpg) no-repeat -9999px -9999px,
-    url(./assets/Cartographic.jpg) no-repeat -9999px -9999px,
-    url(./assets/Cellular.jpg) no-repeat -9999px -9999px,
-    url(./assets/Volcanic.jpg) no-repeat -9999px -9999px,
-    url(./assets/Organic.jpg) no-repeat -9999px -9999px,
-    url(./assets/Strand.jpg) no-repeat -9999px -9999px,
-    url(./assets/Structural-2.jpg) no-repeat -9999px -9999px;
+    background: url(./assets/deeper-dive.jpg) no-repeat -9999px -9999px,
+        url(./assets/alien-tech.jpg) no-repeat -9999px -9999px,
+        url(./assets/Cartographic.jpg) no-repeat -9999px -9999px,
+        url(./assets/Cellular.jpg) no-repeat -9999px -9999px,
+        url(./assets/Volcanic.jpg) no-repeat -9999px -9999px,
+        url(./assets/Organic.jpg) no-repeat -9999px -9999px,
+        url(./assets/Strand.jpg) no-repeat -9999px -9999px,
+        url(./assets/Structural-2.jpg) no-repeat -9999px -9999px;
 }
 
 body::-webkit-scrollbar {
@@ -80,7 +87,8 @@ body::-webkit-scrollbar {
 }
 
 body {
-    animation: background-fade 7s ease-in-out;
+    animation: background-fade 8s ease-in-out;
+    margin: 0px;
 }
 
 @keyframes background-fade{
@@ -92,91 +100,130 @@ body {
     }
 }
 
-.main-board {
-    margin: 50px 10px 10px 50px;
-    border-color: var(--main-color);
-    border-width: 6px;
-    border-radius: 3px;
-    border-style: solid;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--main-background-color);
-    flex-basis: auto;
-    max-width: 445px;
-    min-height: 400px;
-    justify-content: space-between;
-    transition: all 12s ease-in-out;
-}
-
-.main-board:hover {
-    background-color: var(--background-purple);
-    transition: all 12s ease-in-out;
+@media screen and (min-width: 520px) {
+    .main-board {
+        margin: 20px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        min-height: 400px;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 520px) {
     .title-section {
-        font-size: 56px;
+        font-size: 40px;
         text-align: center;
   }
 }
 
 @media screen and (max-width: 520px) {
     .title-section {
-        font-size: 45px;
+        font-size: 38px;
         text-align: center;
   }
 }
 
 @media screen and (max-width: 430px) {
     .title-section {
-        font-size: 34px;
+        font-size: 32px;
         text-align: center;
   }
 }
 
+.header-section {
+    background-color: var(--main-background-color);
+    border-color: var(--main-color);
+    border-width: 4px;
+    border-radius: 2px;
+    border-style: solid;
+    max-width: 305px;
+    min-width: 305px;
+    padding: 10px 4px 6px 4px;
+    margin: 0px 4px 0px 4px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    transition: 10s;
+}
+
+.header-section:hover {
+    background-color: var(--background-purple);
+    transition: 10s;
+}
+
+.title-section {
+    padding: 0px 0px 3px 0px;
+}
+
 .title-section > span {
-    color: white;
-    transition: 1s ease-in-out;
+    color: black;
+    transition: 2s ease-in-out;
 }
 
 .title-section > span:hover {
-    color: black;
-    transition: 1s;
+    color: white;
+    transition: 2s;
 }
 
 .nav-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 0px 0px 20px 0px;
+    min-width: 320px;
+    align-self: center;
 }
 
 .button-section {
-    margin: 25px 0px 25px 0px;
+    margin: 10px 0px 10px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.nav-button {
-    padding: 4px 4px 4px 4px;
-    margin: 3px 3px 3px 3px;
-    border-width: 2px;
+.nav-home {
+    padding: 6px 6px 6px 6px;
+    margin: 0px 0px 0px 0px;
+    border-width: 4px;
     border-radius: 2px;
     border-color: var(--main-color);
     border-style: solid;
     max-width: 70px;
     min-width: 70px;
+    float: left;
     background-color: white;
     text-align: center;
     max-height: 18px;
-    transition: all 5s ease-in-out;
+    transition: all 15s;
 }
 
-.nav-button:hover {
-    background-color: var(--background-purple);
-    margin-top: -200px;
+.nav-about {
+    padding: 6px 6px 6px 6px;
+    margin: 0px 0px 0px 0px;
+    border-width: 4px;
+    border-radius: 2px;
+    border-color: var(--main-color);
+    border-style: solid;
+    max-width: 70px;
+    float: right;
+    min-width: 70px;
+    background-color: white;
+    text-align: center;
     max-height: 18px;
-    transition: all 5s ease-in-out;
+    transition: all 15s;
+}
+
+.nav-home:hover {
+    background-color: var(--background-purple);
+    margin-top: -700px;
+    max-height: 18px;
+    transition: all 15s;
+}
+
+.nav-about:hover {
+    background-color: var(--background-purple);
+    margin-top: 700px;
+    max-height: 18px;
+    transition: all 15s;
 }
 
 .nav-link {
@@ -298,11 +345,10 @@ body {
 }
 
 .text-section {
-    font-size: 20px;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
+    font-size: 15px;
+    color: black;
+    padding-left: 8px;
+    padding-right: 8px;
     margin-block-start: 0em;
     margin-block-end: 0em;
 }

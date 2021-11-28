@@ -12,7 +12,8 @@ import {Stuff} from './pages/stuff';
 import {Projects} from './pages/projects';
 import {Random} from './pages/random';
 import {History} from './pages/history';
-import {TitleSection} from './components/title_section';
+import {Nature} from './pages/nature';
+import {HeaderSection} from './components/header_section';
 import { buildButtonArrayAsHtml } from './helpers/button_list_helpers';
 import { addRandomBackgroundImage } from './helpers/add_random_background_image';
 
@@ -54,6 +55,11 @@ const App = () => {
             buttonText: 'History',
         },
         {
+            link: 'nature',
+            isExternal: false,
+            buttonText: 'Nature',
+        },
+        {
             link: 'about',
             isExternal: false,
             buttonText: 'About',
@@ -64,7 +70,7 @@ const App = () => {
         <>
             <div className='main-board'>
 
-                <TitleSection title={'USUMOIO.COM'} />
+                <HeaderSection title={'USUMOIO.COM'} />
 
                 <div className='button-section'>
                     {buildButtonArrayAsHtml(buttonArray)}
@@ -88,9 +94,10 @@ ReactDOM.render(
             <Route path="magic" element={<Magic />} />
             <Route path="news" element={<News />} />
             <Route path="stuff" element={<Stuff />} />
-            <Route path="Projects" element={<Projects />} />
-            <Route path="Random" element={<Random />} />
-            <Route path="History" element={<History />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="random" element={<Random />} />
+            <Route path="history" element={<History />} />
+            <Route path="nature" element={<Nature />} />
         </Routes>
     </BrowserRouter>,
     document.getElementById('root')
