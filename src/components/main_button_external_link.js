@@ -6,7 +6,7 @@ import { addRandomAnimationClass } from '../helpers/add_random_animation_class';
 
 export const MainButtonExternalLink = (propsObject) => {
 
-    let textClassName = 'link-as-button' + (propsObject.buttonText.length > 10 ? ' link-as-button-font-small' : ' link-as-button-font-large' );
+    let textClassName = 'link-as-button' + (propsObject.buttonText.length > 7 ? ' link-as-button-font-small' : ' link-as-button-font-large' );
 
     let buttonClassName = 'main-button ' + addRandomAnimationClass();
 

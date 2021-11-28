@@ -1,10 +1,13 @@
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
 /* root css doc controlling all style on the site  */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
 
 :root {
-    /*--main-color: #818893;*/
     --main-color: #818893;
-    /*--main-background-color: #c3d6d6;*/
     --main-background-color: black;
+    --background-purple: #7b2cc9;
 }
 
 div {
@@ -20,18 +23,79 @@ a {
     text-decoration: none;
 }
 
-html {
-    background: url(./assets/alien-tech.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.dive {
+    background: url(./assets/deeper-dive.jpg);
+    transition: all 3s ease-in-out;
+}
+
+.tech {
+    background: url(./assets/alien-tech.jpg);
+    transition: all 3s ease-in-out;
+}
+
+.cart {
+    background: url(./assets/Cartographic.jpg);
+    transition: all 3s ease-in-out;
+}
+
+.cell {
+    background: url(./assets/Cellular.jpg);
+    transition: all 3s ease-in-out;
+}
+
+.volc {
+    background: url(./assets/Volcanic.jpg);
+    transition: all 3s ease-in-out;
+}
+
+.org {
+    background: url(./assets/Organic.jpg);
+    transition: all 3s ease-in-out;
+}
+
+.strand {
+    background: url(./assets/Strand.jpg);
+    transition: all 3s ease-in-out;
+}
+
+.struct {
+    background: url(./assets/Structural-2.jpg);
+    transition: all 3s ease-in-out;
+}
+
+.preload-images {
+
+background: url(./assets/deeper-dive.jpg) no-repeat -9999px -9999px,
+    url(./assets/alien-tech.jpg) no-repeat -9999px -9999px,
+    url(./assets/Cartographic.jpg) no-repeat -9999px -9999px,
+    url(./assets/Cellular.jpg) no-repeat -9999px -9999px,
+    url(./assets/Volcanic.jpg) no-repeat -9999px -9999px,
+    url(./assets/Organic.jpg) no-repeat -9999px -9999px,
+    url(./assets/Strand.jpg) no-repeat -9999px -9999px,
+    url(./assets/Structural-2.jpg) no-repeat -9999px -9999px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    animation: background-fade 7s ease-in-out;
+}
+
+@keyframes background-fade{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .main-board {
     margin: 50px 10px 10px 50px;
     border-color: var(--main-color);
-    border-width: 7px;
+    border-width: 6px;
     border-radius: 3px;
     border-style: solid;
     display: flex;
@@ -45,7 +109,7 @@ html {
 }
 
 .main-board:hover {
-    background-color: #7b2cc9;
+    background-color: var(--background-purple);
     transition: all 12s ease-in-out;
 }
 
@@ -87,7 +151,7 @@ html {
 }
 
 .button-section {
-    margin: 40px 0px 40px 0px;
+    margin: 25px 0px 25px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -104,6 +168,15 @@ html {
     min-width: 70px;
     background-color: white;
     text-align: center;
+    max-height: 18px;
+    transition: all 5s ease-in-out;
+}
+
+.nav-button:hover {
+    background-color: var(--background-purple);
+    margin-top: -200px;
+    max-height: 18px;
+    transition: all 5s ease-in-out;
 }
 
 .nav-link {
@@ -215,7 +288,6 @@ html {
     transition: all 2s ease-in-out;
 }
 
-
 .react-link {
     font-size: 35px;
     display: inline-block;
@@ -226,6 +298,16 @@ html {
 }
 
 .text-section {
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.text-section-about {
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;

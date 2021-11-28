@@ -33,11 +33,11 @@ export const Stuff = () => {
 
     return (
 
-        <div class='main-board'>
+        <div className='main-board'>
 
             <TitleSection title={'USUMOIO STUFF'} />
 
-            <div class='button-section'>
+            <div className='button-section'>
                 {buildButtonArrayAsHtml(buttonArray)}
             </div>
 

@@ -4,6 +4,7 @@
 import {LowerNav} from '../components/lower_nav';
 import { buildButtonArrayAsHtml } from '../helpers/button_list_helpers';
 import {TitleSection} from '../components/title_section';
+import {TextSection} from '../components/text_section';
 
 export const News = () => {
 
@@ -47,11 +48,13 @@ export const News = () => {
 
     return (
 
-        <div class='main-board'>
+        <div className='main-board'>
 
             <TitleSection title={'NEWS'} />
 
-            <div class='button-section'>
+            <TextSection text={'Here are some news sources I check regularly.'} />
+
+            <div className='button-section'>
                 {buildButtonArrayAsHtml(buttonArray)}
             </div>
 

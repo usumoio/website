@@ -4,6 +4,7 @@
 import {LowerNav} from '../components/lower_nav';
 import { buildButtonArrayAsHtml } from '../helpers/button_list_helpers';
 import {TitleSection} from '../components/title_section';
+import {TextSection} from '../components/text_section';
 
 export const Magic = () => {
 
@@ -37,18 +38,29 @@ export const Magic = () => {
             link: 'https://www.tcdecks.net/',
             isExternal: true,
             buttonText: 'TC Decks',
-        }
-
+        },
+        {
+            link: 'https://articles.starcitygames.com/articles/whos-the-beatdown/',
+            isExternal: true,
+            buttonText: 'Beatdown',
+        },
+        {
+            link: 'https://www.cardkingdom.com/',
+            isExternal: true,
+            buttonText: 'CK',
+        },
     ];
 
     return (
 
 
-        <div class='main-board'>
+        <div className='main-board'>
 
             <TitleSection title={'MAGIC'} />
 
-            <div class='button-section'>
+            <TextSection text={'I think Magic the gathering is a well made game. Here are some links to Magic resources I like.'} />
+
+            <div className='button-section'>
                 {buildButtonArrayAsHtml(buttonArray)}
             </div>
 
