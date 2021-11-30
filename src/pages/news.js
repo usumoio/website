@@ -8,7 +8,7 @@ import { addRandomBackgroundImage } from '../helpers/add_random_background_image
 
 export const News = () => {
 
-    addRandomBackgroundImage(0);
+    addRandomBackgroundImage();
 
     const text = 'Here are some news sources I check regularly. I think it is important for a person to be informed.';
 

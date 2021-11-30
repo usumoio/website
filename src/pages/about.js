@@ -7,7 +7,7 @@ import { addRandomBackgroundImage } from '../helpers/add_random_background_image
 
 export const About = () => {
 
-    addRandomBackgroundImage(0);
+    addRandomBackgroundImage();
 
     return (
 

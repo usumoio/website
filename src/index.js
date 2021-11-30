@@ -21,7 +21,7 @@ import './universal.css';
 
 const App = () => {
 
-    addRandomBackgroundImage(0);
+    addRandomBackgroundImage();
 
     const buttonArray = [
         {

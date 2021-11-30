@@ -9,7 +9,7 @@ import { addRandomBackgroundImage } from '../helpers/add_random_background_image
 
 export const Stuff = () => {
 
-    addRandomBackgroundImage(0);
+    addRandomBackgroundImage();
 
     const text = `Here are some details on what I'm up to, both on and off the internet!`;
 

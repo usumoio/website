@@ -62,7 +62,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-low-time-low-color-low {
     transition: all 1s ease-in-out;
-    background-color: #4b4a52;
+    background-color: var(--light-color);
     opacity: 0.2;
 }
 
@@ -72,7 +72,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-mid-time-low-color-low {
     transition: all 1s ease-in-out;
-    background-color: #4b4a52;
+    background-color: var(--light-color);
     opacity: 0.5;
 }
 
@@ -82,7 +82,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-high-time-low-color-low {
     transition: all 1s ease-in-out;
-    background-color: #4b4a52;
+    background-color: var(--light-color);
     opacity: 0.9;
 }
 
@@ -92,7 +92,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-low-time-low-color-mid {
     transition: all 1s ease-in-out;
-    background-color: #3a3940;
+    background-color: var(--mid-color);
     opacity: 0.2;
 }
 
@@ -102,7 +102,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-low-time-mid-color-low {
     transition: all 3s ease-in-out;
-    background-color: #4b4a52;
+    background-color: var(--light-color);
     opacity: 0.2;
 }
 
@@ -112,7 +112,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-low-time-low-color-high {
     transition: all 1s ease-in-out;
-    background-color: black;
+    background-color: var(--dark-color);
     opacity: 0.2;
 }
 
@@ -122,7 +122,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-mid-time-mid-color-low {
     transition: all 3s ease-in-out;
-    background-color: #4b4a52;
+    background-color: var(--light-color);
     opacity: 0.5;
 }
 
@@ -132,7 +132,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-mid-time-mid-color-mid {
     transition: all 3s ease-in-out;
-    background-color: #3a3940;
+    background-color: var(--mid-color);
     opacity: 0.5;
 }
 
@@ -142,7 +142,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-mid-time-low-color-mid {
     transition: all 2s ease-in-out;
-    background-color: #3a3940;
+    background-color: var(--mid-color);
     opacity: 0.5;
 }
 
@@ -152,7 +152,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-low-time-mid-color-mid {
     transition: all 3s ease-in-out;
-    background-color: #3a3940;
+    background-color: var(--mid-color);
     opacity: 0.2;
 }
 
@@ -162,7 +162,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-low-time-mid-color-high {
     transition: all 2s ease-in-out;
-    background-color: black;
+    background-color: var(--dark-color);
     opacity: 0.2;
 }
 
@@ -172,7 +172,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-low-time-high-color-mid {
     transition: all 4s ease-in-out;
-    background-color: #3a3940;
+    background-color: var(--mid-color);
     opacity: 0.2;
 }
 
@@ -182,7 +182,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-low-time-high-color-low {
     transition: all 4s ease-in-out;
-    background-color: #4b4a52;
+    background-color: var(--light-color);
     opacity: 0.2;
 }
 
@@ -192,7 +192,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-low-time-high-color-high {
     transition: all 4s ease-in-out;
-    background-color: black;
+    background-color: var(--dark-color);
     opacity: 0.2;
 }
 
@@ -202,7 +202,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-mid-time-low-color-high {
     transition: all 2s ease-in-out;
-    background-color: black;
+    background-color: var(--dark-color);
     opacity: 0.5;
 }
 
@@ -212,7 +212,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-mid-time-mid-color-high {
     transition: all 3s ease-in-out;
-    background-color: black;
+    background-color: var(--dark-color);
     opacity: 0.5;
 }
 
@@ -222,7 +222,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-mid-time-high-color-low {
     transition: all 4s ease-in-out;
-    background-color: #4b4a52;
+    background-color: var(--light-color);
     opacity: 0.5;
 }
 
@@ -232,7 +232,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-mid-time-high-color-mid {
     transition: all 4s ease-in-out;
-    background-color: #3a3940;
+    background-color: var(--mid-color);
     opacity: 0.5;
 }
 
@@ -242,7 +242,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-mid-time-high-color-high {
     transition: all 4s ease-in-out;
-    background-color: black;
+    background-color: var(--dark-color);
     opacity: 0.5;
 }
 
@@ -252,7 +252,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-high-time-low-color-mid {
     transition: all 2s ease-in-out;
-    background-color: #3a3940;
+    background-color: var(--mid-color);
     opacity: 0.9;
 }
 
@@ -262,7 +262,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-high-time-low-color-high {
     transition: all 2s ease-in-out;
-    background-color: black;
+    background-color: var(--dark-color);
     opacity: 0.9;
 }
 
@@ -272,7 +272,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-high-time-mid-color-low {
     transition: all 3s ease-in-out;
-    background-color: #4b4a52;
+    background-color: var(--light-color);
     opacity: 0.9;
 }
 
@@ -282,7 +282,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-high-time-mid-color-mid {
     transition: all 3s ease-in-out;
-    background-color: #3a3940;
+    background-color: var(--mid-color);
     opacity: 0.9;
 }
 
@@ -292,7 +292,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-high-time-mid-color-high {
     transition: all 3s ease-in-out;
-    background-color: black;
+    background-color: var(--dark-color);
     opacity: 0.9;
 }
 
@@ -302,7 +302,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-high-time-high-color-low {
     transition: all 4s ease-in-out;
-    background-color: #4b4a52;
+    background-color: var(--light-color);
     opacity: 0.9;
 }
 
@@ -312,7 +312,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-high-time-high-color-mid {
     transition: all 4s ease-in-out;
-    background-color: #3a3940;
+    background-color: var(--mid-color);
     opacity: 0.9;
 }
 
@@ -322,7 +322,7 @@ HHH*/
 
 .grid-overlay:hover > a > .inner-grid-square-op-high-time-high-color-high {
     transition: all 4s ease-in-out;
-    background-color: black;
+    background-color: var(--dark-color);
     opacity: 0.9;
 }
 

@@ -8,7 +8,7 @@ import { addRandomBackgroundImage } from '../helpers/add_random_background_image
 
 export const History = () => {
 
-    addRandomBackgroundImage(0);
+    addRandomBackgroundImage();
 
     const text= 'These are some Wikipedia links to interesting stories from History. These are worth a read. I hope to add more soon.'
 

@@ -8,7 +8,7 @@ import { addRandomBackgroundImage } from '../helpers/add_random_background_image
 
 export const Magic = () => {
 
-    addRandomBackgroundImage(0);
+    addRandomBackgroundImage();
 
     const text = 'I think Magic the gathering is a really well made game. Here are some links to Magic resources I like. I hope you find them useful.';
 
