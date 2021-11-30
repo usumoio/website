@@ -129,7 +129,7 @@ export const History = () => {
         <>
             <div className='main-board'>
 
-                <HeaderSection title={'MAGIC'} text={text} />
+                <HeaderSection title={'HISTORY'} text={text} />
 
                 <div className='button-section'>
                     {buildButtonArrayAsHtml(buttonArray)}

@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------- */
 /* ----------------------------------------------------------------- */
-/* root css doc controlling all style on the site  */
+/* root css doc controlling all style on the site                    */
 /* ----------------------------------------------------------------- */
 /* ----------------------------------------------------------------- */
 
@@ -105,7 +105,7 @@ body {
         margin: 20px 0px 0px 0px;
         display: flex;
         flex-direction: column;
-        max-width: 350px;
+        max-width: 368px;
         min-height: 400px;
         justify-content: center;
     }
@@ -138,8 +138,8 @@ body {
     border-width: 4px;
     border-radius: 2px;
     border-style: solid;
-    max-width: 305px;
-    min-width: 305px;
+    max-width: 321px;
+    min-width: 321px;
     padding: 10px 4px 6px 4px;
     margin: 0px 4px 0px 4px;
     align-self: center;
@@ -149,7 +149,6 @@ body {
 }
 
 .header-section:hover {
-    background-color: var(--background-purple);
     transition: 10s;
 }
 
@@ -169,7 +168,7 @@ body {
 
 .nav-section {
     padding: 0px 0px 20px 0px;
-    min-width: 320px;
+    min-width: 336px;
     align-self: center;
 }
 
@@ -234,10 +233,10 @@ body {
 }
 
 .main-button {
-    min-width: 150px;
-    max-width: 150px;
-    min-height: 150px;
-    max-height: 150px;
+    min-width: 158px;
+    max-width: 158px;
+    min-height: 158px;
+    max-height: 158px;
     margin: 10px;
     border-width: 4px;
     border-radius: 2px;
@@ -246,6 +245,7 @@ body {
     text-align: center;
     background-color: white;
     box-sizing: border-box;
+    position: relative;
 }
 
 .main-button-flip-left-right:hover{
@@ -316,23 +316,14 @@ body {
         border-color 2s ease-in-out;
 }
 
-.main-button-checkered {
+.main-button-fade {
     transition: all 2s ease-in-out;
+    opacity: 1;
 }
 
-.main-button-checkered:hover {
-    background-position: 0px 0px, 20px 20px;
-    background-size: 20px 20px;
-    background-image: 
-        linear-gradient(
-            45deg, var(--main-color) 25%, transparent 25%, transparent 75%, var(--main-color) 75%, var(--main-color) 100%
-        ),
-        linear-gradient(
-            45deg, var(--main-color) 25%, white 25%, white 75%, var(--main-color) 75%, var(--main-color) 100%
-        );
-    transition: opacity 2s;
-    opacity: 0.1;
+.main-button-fade:hover {
     transition: all 2s ease-in-out;
+    opacity: 0;
 }
 
 .react-link {

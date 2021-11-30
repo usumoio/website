@@ -1,0 +1,331 @@
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* control the complex grid grey animation for the main button hover */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+/*LLL
+LLM
+LLH
+LML
+LMM
+LMH
+LHL
+LHM
+LHH
+
+MLL
+MLM
+MLH
+MML
+MMM
+MMH
+MHL
+MHM
+MHH
+
+HLL
+HLM
+HLH
+HML
+HMM
+HMH
+HHL
+HHM
+HHH*/
+
+:root {
+    --light-color: #4b4a52;
+    --mid-color: #3a3940;
+    --dark-color: black;
+}
+
+.grid-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.inner-grid-square {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-low-time-low-color-low {
+    transition: all 1s ease-in-out;
+    background-color: #4b4a52;
+    opacity: 0.2;
+}
+
+.inner-grid-square-op-low-time-low-color-low {
+    transition: all 1s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-mid-time-low-color-low {
+    transition: all 1s ease-in-out;
+    background-color: #4b4a52;
+    opacity: 0.5;
+}
+
+.inner-grid-square-op-mid-time-low-color-low {
+    transition: all 1s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-high-time-low-color-low {
+    transition: all 1s ease-in-out;
+    background-color: #4b4a52;
+    opacity: 0.9;
+}
+
+.inner-grid-square-op-high-time-low-color-low {
+    transition: all 1s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-low-time-low-color-mid {
+    transition: all 1s ease-in-out;
+    background-color: #3a3940;
+    opacity: 0.2;
+}
+
+.inner-grid-square-op-low-time-low-color-mid {
+    transition: all 2s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-low-time-mid-color-low {
+    transition: all 3s ease-in-out;
+    background-color: #4b4a52;
+    opacity: 0.2;
+}
+
+.inner-grid-square-op-low-time-mid-color-low {
+    transition: all 3s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-low-time-low-color-high {
+    transition: all 1s ease-in-out;
+    background-color: black;
+    opacity: 0.2;
+}
+
+.inner-grid-square-op-low-time-low-color-high {
+    transition: all 2s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-mid-time-mid-color-low {
+    transition: all 3s ease-in-out;
+    background-color: #4b4a52;
+    opacity: 0.5;
+}
+
+.inner-grid-square-op-mid-time-mid-color-low {
+    transition: all 3s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-mid-time-mid-color-mid {
+    transition: all 3s ease-in-out;
+    background-color: #3a3940;
+    opacity: 0.5;
+}
+
+.inner-grid-square-op-mid-time-mid-color-mid {
+    transition: all 3s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-mid-time-low-color-mid {
+    transition: all 2s ease-in-out;
+    background-color: #3a3940;
+    opacity: 0.5;
+}
+
+.inner-grid-square-op-mid-time-low-color-mid {
+    transition: all 2s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-low-time-mid-color-mid {
+    transition: all 3s ease-in-out;
+    background-color: #3a3940;
+    opacity: 0.2;
+}
+
+.inner-grid-square-op-low-time-mid-color-mid {
+    transition: all 3s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-low-time-mid-color-high {
+    transition: all 2s ease-in-out;
+    background-color: black;
+    opacity: 0.2;
+}
+
+.inner-grid-square-op-low-time-low-color-high {
+    transition: all 2s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-low-time-high-color-mid {
+    transition: all 4s ease-in-out;
+    background-color: #3a3940;
+    opacity: 0.2;
+}
+
+.inner-grid-square-op-low-time-high-color-mid {
+    transition: all 4s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-low-time-high-color-low {
+    transition: all 4s ease-in-out;
+    background-color: #4b4a52;
+    opacity: 0.2;
+}
+
+.inner-grid-square-op-low-time-high-color-low {
+    transition: all 4s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-low-time-high-color-high {
+    transition: all 4s ease-in-out;
+    background-color: black;
+    opacity: 0.2;
+}
+
+.inner-grid-square-op-low-time-high-color-high {
+    transition: all 2s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-mid-time-low-color-high {
+    transition: all 2s ease-in-out;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.inner-grid-square-op-mid-time-low-color-high {
+    transition: all 2s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-mid-time-mid-color-high {
+    transition: all 3s ease-in-out;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.inner-grid-square-op-mid-time-mid-color-high {
+    transition: all 3s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-mid-time-high-color-low {
+    transition: all 4s ease-in-out;
+    background-color: #4b4a52;
+    opacity: 0.5;
+}
+
+.inner-grid-square-op-mid-time-high-color-low {
+    transition: all 4s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-mid-time-high-color-mid {
+    transition: all 4s ease-in-out;
+    background-color: #3a3940;
+    opacity: 0.5;
+}
+
+.inner-grid-square-op-mid-time-high-color-mid {
+    transition: all 4s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-mid-time-high-color-high {
+    transition: all 4s ease-in-out;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.inner-grid-square-op-mid-time-high-color-high {
+    transition: all 4s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-high-time-low-color-mid {
+    transition: all 2s ease-in-out;
+    background-color: #3a3940;
+    opacity: 0.9;
+}
+
+.inner-grid-square-op-high-time-low-color-mid {
+    transition: all 2s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-high-time-low-color-high {
+    transition: all 2s ease-in-out;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.inner-grid-square-op-high-time-low-color-high {
+    transition: all 2s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-high-time-mid-color-low {
+    transition: all 3s ease-in-out;
+    background-color: #4b4a52;
+    opacity: 0.9;
+}
+
+.inner-grid-square-op-high-time-mid-color-low {
+    transition: all 3s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-high-time-mid-color-mid {
+    transition: all 3s ease-in-out;
+    background-color: #3a3940;
+    opacity: 0.9;
+}
+
+.inner-grid-square-op-high-time-mid-color-mid {
+    transition: all 3s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-high-time-mid-color-high {
+    transition: all 3s ease-in-out;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.inner-grid-square-op-high-time-mid-color-high {
+    transition: all 3s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-high-time-high-color-low {
+    transition: all 4s ease-in-out;
+    background-color: #4b4a52;
+    opacity: 0.9;
+}
+
+.inner-grid-square-op-high-time-high-color-low {
+    transition: all 4s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-high-time-high-color-mid {
+    transition: all 4s ease-in-out;
+    background-color: #3a3940;
+    opacity: 0.9;
+}
+
+.inner-grid-square-op-high-time-high-color-mid {
+    transition: all 4s ease-in-out;
+}
+
+.grid-overlay:hover > a > .inner-grid-square-op-high-time-high-color-high {
+    transition: all 4s ease-in-out;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.inner-grid-square-op-high-time-high-color-high {
+    transition: all 4s ease-in-out;
+}
