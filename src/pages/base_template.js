@@ -1,7 +1,7 @@
 /**
  * base template for most app pages
  */
-import React from 'react';
+import React, { useState } from 'react';
 import { addRandomBackgroundImage } from '../helpers/add_random_background_image';
 import {LowerNav} from '../components/lower_nav';
 
@@ -9,7 +9,12 @@ import '../universal.css';
 
 export const BaseTemplate = (propsObject) => {
 
-    addRandomBackgroundImage();
+        const [backgroundSetter, setBackgroundSetter] = useState('unset');
+
+        if(backgroundSetter === 'unset') {
+            addRandomBackgroundImage();
+            setBackgroundSetter('set');
+        }
 
     return (
         <>
