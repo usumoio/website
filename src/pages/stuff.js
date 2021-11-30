@@ -1,15 +1,11 @@
 /**
  * page for magic the gathering stuff of the app
  */
-import {LowerNav} from '../components/lower_nav';
 import { buildButtonArrayAsHtml } from '../helpers/button_list_helpers';
 import Pdf from '../assets/michael_spivack_resume.pdf'
 import { HeaderSection } from '../components/header_section';
-import { addRandomBackgroundImage } from '../helpers/add_random_background_image';
 
 export const Stuff = () => {
-
-    addRandomBackgroundImage();
 
     const text = `Here are some details on what I'm up to, both on and off the internet!`;
 
@@ -39,19 +35,12 @@ export const Stuff = () => {
     return (
 
         <>
-            <div className='main-board'>
+            <HeaderSection title={'USUMOIO STUFF'} text={text} />
 
-                <HeaderSection title={'USUMOIO STUFF'} text={text} />
-
-                <div className='button-section'>
-                    {buildButtonArrayAsHtml(buttonArray)}
-                </div>
-
-                <LowerNav />
-
+            <div className='button-section'>
+                {buildButtonArrayAsHtml(buttonArray)}
             </div>
 
-            <div className='preload-images'></div>
         </>
 
     );

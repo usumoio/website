@@ -1,14 +1,10 @@
 /**
  * page for magic the gathering stuff of the app
  */
-import { LowerNav } from '../components/lower_nav';
 import { buildButtonArrayAsHtml } from '../helpers/button_list_helpers';
 import { HeaderSection } from '../components/header_section';
-import { addRandomBackgroundImage } from '../helpers/add_random_background_image';
 
 export const Magic = () => {
-
-    addRandomBackgroundImage();
 
     const text = 'I think Magic the gathering is a really well made game. Here are some links to Magic resources I like. I hope you find them useful.';
 
@@ -57,20 +53,12 @@ export const Magic = () => {
 
     return (
         <>
+            <HeaderSection title={'MAGIC'} text={text} />
 
-            <div className='main-board'>
-
-                <HeaderSection title={'MAGIC'} text={text} />
-
-                <div className='button-section'>
-                    {buildButtonArrayAsHtml(buttonArray)}
-                </div>
-
-                <LowerNav />
-
+            <div className='button-section'>
+                {buildButtonArrayAsHtml(buttonArray)}
             </div>
-                
-            <div className='preload-images'></div>
+
         </>
     );
 

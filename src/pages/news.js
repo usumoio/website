@@ -1,14 +1,10 @@
 /**
  * page for magic the gathering stuff of the app
  */
-import {LowerNav} from '../components/lower_nav';
 import { buildButtonArrayAsHtml } from '../helpers/button_list_helpers';
 import { HeaderSection } from '../components/header_section';
-import { addRandomBackgroundImage } from '../helpers/add_random_background_image';
 
 export const News = () => {
-
-    addRandomBackgroundImage();
 
     const text = 'Here are some news sources I check regularly. I think it is important for a person to be informed.';
 
@@ -52,17 +48,14 @@ export const News = () => {
 
     return (
 
-        <div className='main-board'>
-
+        <>
             <HeaderSection title={'NEWS'} text={text} />
 
             <div className='button-section'>
                 {buildButtonArrayAsHtml(buttonArray)}
             </div>
 
-            <LowerNav />
-
-        </div>
+        </>
 
     );
 

@@ -1,14 +1,10 @@
 /**
  * page for magic the gathering stuff of the app
  */
-import { LowerNav } from '../components/lower_nav';
 import { buildButtonArrayAsHtml } from '../helpers/button_list_helpers';
 import { HeaderSection } from '../components/header_section';
-import { addRandomBackgroundImage } from '../helpers/add_random_background_image';
 
 export const History = () => {
-
-    addRandomBackgroundImage();
 
     const text= 'These are some Wikipedia links to interesting stories from History. These are worth a read. I hope to add more soon.'
 
@@ -127,19 +123,12 @@ export const History = () => {
 
     return (
         <>
-            <div className='main-board'>
+            <HeaderSection title={'HISTORY'} text={text} />
 
-                <HeaderSection title={'HISTORY'} text={text} />
-
-                <div className='button-section'>
-                    {buildButtonArrayAsHtml(buttonArray)}
-                </div>
-
-                <LowerNav />
-
+            <div className='button-section'>
+                {buildButtonArrayAsHtml(buttonArray)}
             </div>
 
-            <div className='preload-images'></div>
         </>
 
     );
