@@ -100,13 +100,6 @@ a {
     transition: all 3s ease-in-out;
 }
 
-.vast {
-    background: url(./assets/vast.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
-    transition: all 3s ease-in-out;
-}
-
 .inner {
     background: url(./assets/inner-clarity.jpg);
     background-attachment: fixed;
@@ -184,6 +177,34 @@ a {
     transition: all 3s ease-in-out;
 }
 
+.jazz {
+    background: url(./assets/jazz.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    transition: all 3s ease-in-out;
+}
+
+.angle {
+    background: url(./assets/angled.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    transition: all 3s ease-in-out;
+}
+
+.depth {
+    background: url(./assets/in-depth.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    transition: all 3s ease-in-out;
+}
+
+.unravel {
+    background: url(./assets/unraveled.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    transition: all 3s ease-in-out;
+}
+
 .preload-images {
     background: url(./assets/deeper-dive.jpg) no-repeat -9999px -9999px,
         url(./assets/alien-tech.jpg) no-repeat -9999px -9999px,
@@ -196,7 +217,6 @@ a {
         url(./assets/747-8-1.jpg) no-repeat -9999px -9999px,
         url(./assets/angular.jpg) no-repeat -9999px -9999px,
         url(./assets/burst.jpg) no-repeat -9999px -9999px,
-        url(./assets/vast.jpg) no-repeat -9999px -9999px,
         url(./assets/inner-clarity.jpg) no-repeat -9999px -9999px,
         url(./assets/julia-variation.jpg) no-repeat -9999px -9999px,
         url(./assets/mandelbrot-graveyard.jpg) no-repeat -9999px -9999px,
@@ -207,7 +227,11 @@ a {
         url(./assets/second-plateau.jpg) no-repeat -9999px -9999px,
         url(./assets/Spaceflight.jpg) no-repeat -9999px -9999px,
         url(./assets/swiss-fractal.jpg) no-repeat -9999px -9999px,
-        url(./assets/Tissue.jpg) no-repeat -9999px -9999px;
+        url(./assets/Tissue.jpg) no-repeat -9999px -9999px,
+        url(./assets/jazz.jpg) no-repeat -9999px -9999px,
+        url(./assets/angled.jpg) no-repeat -9999px -9999px,
+        url(./assets/in-depth.jpg) no-repeat -9999px -9999px,
+        url(./assets/unraveled.jpg) no-repeat -9999px -9999px;
 }
 
 body::-webkit-scrollbar {

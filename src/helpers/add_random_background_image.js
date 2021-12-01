@@ -7,7 +7,7 @@ export function addRandomBackgroundImage () {
 
     const element =  document.getElementsByTagName("html")[0];
 
-    const randomness = Math.floor(Math.random() * 23);
+    const randomness = Math.floor(Math.random() * 27);
 
     // tech
     // dive
@@ -32,6 +32,11 @@ export function addRandomBackgroundImage () {
     // space
     // swiss
     // tissue
+    // jazz
+    // angle
+    // depth
+    // unravel
+
 
     const backgroundNameArray = [
         'tech',
@@ -57,6 +62,10 @@ export function addRandomBackgroundImage () {
         'space',
         'swiss',
         'tissue',
+        'jazz',
+        'angle',
+        'depth',
+        'unravel',
     ];
 
     const removeOldClasses = (htmlElement, elementToKeep) => {
@@ -184,6 +193,26 @@ export function addRandomBackgroundImage () {
             removeOldClasses(element, 22);
             break;
 
+        case 23:
+            element.classList.add('jazz');
+            removeOldClasses(element, 22);
+            break;
+
+        case 24:
+            element.classList.add('angle');
+            removeOldClasses(element, 22);
+            break;
+
+        case 25:
+            element.classList.add('depth');
+            removeOldClasses(element, 22);
+            break;
+
+        case 26:
+            element.classList.add('unravel');
+            removeOldClasses(element, 22);
+            break;
+        
         default:
             element.classList.add('tech');
             removeOldClasses(element, 0);
