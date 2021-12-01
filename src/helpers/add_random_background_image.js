@@ -7,7 +7,7 @@ export function addRandomBackgroundImage () {
 
     const element =  document.getElementsByTagName("html")[0];
 
-    const randomness = Math.floor(Math.random() * 27);
+    const randomness = Math.floor(Math.random() * 26);
 
     // tech
     // dive
@@ -20,7 +20,6 @@ export function addRandomBackgroundImage () {
     // seven
     // angular
     // burst
-    // vast
     // inner
     // julia
     // mandel
@@ -50,7 +49,6 @@ export function addRandomBackgroundImage () {
         'seven',
         'angular',
         'burst',
-        'vast',
         'inner',
         'julia',
         'mandel',
@@ -134,83 +132,78 @@ export function addRandomBackgroundImage () {
             break;
 
         case 11:
-            element.classList.add('vast');
+            element.classList.add('inner');
             removeOldClasses(element, 11);
             break;
 
         case 12:
-            element.classList.add('inner');
+            element.classList.add('julia');
             removeOldClasses(element, 12);
             break;
 
         case 13:
-            element.classList.add('julia');
+            element.classList.add('mandel');
             removeOldClasses(element, 13);
             break;
 
         case 14:
-            element.classList.add('mandel');
+            element.classList.add('planet');
             removeOldClasses(element, 14);
             break;
 
         case 15:
-            element.classList.add('planet');
+            element.classList.add('quilt');
             removeOldClasses(element, 15);
             break;
 
         case 16:
-            element.classList.add('quilt');
+            element.classList.add('recur');
             removeOldClasses(element, 16);
             break;
 
         case 17:
-            element.classList.add('recur');
+            element.classList.add('second');
             removeOldClasses(element, 17);
             break;
 
         case 18:
-            element.classList.add('second');
+            element.classList.add('plateau');
             removeOldClasses(element, 18);
             break;
 
         case 19:
-            element.classList.add('plateau');
+            element.classList.add('space');
             removeOldClasses(element, 19);
             break;
 
         case 20:
-            element.classList.add('space');
+            element.classList.add('swiss');
             removeOldClasses(element, 20);
             break;
 
         case 21:
-            element.classList.add('swiss');
+            element.classList.add('tissue');
             removeOldClasses(element, 21);
             break;
 
         case 22:
-            element.classList.add('tissue');
-            removeOldClasses(element, 22);
-            break;
-
-        case 23:
             element.classList.add('jazz');
             removeOldClasses(element, 22);
             break;
 
-        case 24:
+        case 23:
             element.classList.add('angle');
-            removeOldClasses(element, 22);
+            removeOldClasses(element, 23);
+            break;
+
+        case 24:
+            element.classList.add('depth');
+            removeOldClasses(element, 24);
             break;
 
         case 25:
-            element.classList.add('depth');
-            removeOldClasses(element, 22);
-            break;
-
-        case 26:
             element.classList.add('unravel');
-            removeOldClasses(element, 22);
+            removeOldClasses(element, 25);
             break;
         
         default:

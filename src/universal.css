@@ -345,7 +345,7 @@ body {
     background-color: white;
     text-align: center;
     max-height: 18px;
-    transition: all 15s;
+    transition: all 5s linear;
 }
 
 .nav-about {
@@ -366,14 +366,14 @@ body {
 
 .nav-home:hover {
     background-color: var(--background-purple);
-    margin-top: -700px;
+    margin-top: -100px;
     max-height: 18px;
-    transition: all 15s;
+    transition: all 5s linear;
 }
 
 .nav-about:hover {
     background-color: var(--background-purple);
-    margin-top: 700px;
+    margin-top: 400px;
     max-height: 18px;
     transition: all 15s;
 }

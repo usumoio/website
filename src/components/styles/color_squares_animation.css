@@ -1,0 +1,396 @@
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* control the 4 squares and their colors for the color square       */
+/* animation                                                         */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+
+.color-squares-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+
+
+/* TOP LEFT SQUARE ---------------------------------------------------------------------- */
+
+.inner-square-main-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+
+.inner-square-grow-top-left {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    width: 0px;
+    height: 0px;
+    transition: all 3s linear;
+}
+
+.color-squares-overlay:hover > a > .inner-square-main-top-left > .inner-square-grow-top-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 75px;
+    height: 75px;
+    transition: all 3s linear;
+}
+
+.inner-square-grow-top-left-color-zero {
+    background-color: #0fbf3e;
+}
+
+.inner-square-grow-top-left-color-one {
+    background-color: #db5142;
+}
+
+.inner-square-grow-top-left-color-two {
+    background-color: #bfab2a;
+}
+
+.inner-square-grow-top-left-color-three {
+    background-color: #a6f200;
+}
+
+.inner-square-grow-top-left-color-four {
+    background-color: #88b59d;
+}
+
+.inner-square-grow-top-left-color-five {
+    background-color: #567a85;
+}
+
+.inner-square-grow-top-left-color-six {
+    background-color: #826ed4;
+}
+
+.inner-square-grow-top-left-color-seven {
+    background-color: #45377a;
+}
+
+.inner-square-grow-top-left-color-eight {
+    background-color: #a602b5;
+}
+
+.inner-square-grow-top-left-color-nine {
+    background-color: #a8db0f;
+}
+
+.inner-square-grow-top-left-color-ten {
+    background-color: #31db0f;
+}
+
+.inner-square-grow-top-left-color-eleven {
+    background-color: #3112b8;
+}
+
+.inner-square-grow-top-left-color-twelve {
+    background-color: #c049de;
+}
+
+.inner-square-grow-top-left-color-thirteen {
+    background-color: #a88503;
+}
+
+.inner-square-grow-top-left-color-fourteen {
+    background-color: #595239;
+}
+
+
+
+
+/* TOP RIGHT SQUARE ---------------------------------------------------------------------- */
+
+.inner-square-main-top-right {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    margin: 0px;
+    padding: 0px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+
+.inner-square-grow-top-right {
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    transition: all 3s linear;
+}
+
+.color-squares-overlay:hover > a > .inner-square-main-top-right > .inner-square-grow-top-right {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 75px;
+    height: 75px;
+    transition: all 3s linear;
+}
+
+.inner-square-grow-top-right-color-zero {
+    background-color: #418052;
+}
+
+.inner-square-grow-top-right-color-one {
+    background-color: #75190f;
+}
+
+.inner-square-grow-top-right-color-two {
+    background-color: #e6d463;
+}
+
+.inner-square-grow-top-right-color-three {
+    background-color: #5a8241;
+}
+
+.inner-square-grow-top-right-color-four {
+    background-color: #195c38;
+}
+
+.inner-square-grow-top-right-color-five {
+    background-color: #94c9ff;
+}
+
+.inner-square-grow-top-right-color-six {
+    background-color: #2b1d61;
+}
+
+.inner-square-grow-top-right-color-seven {
+    background-color: #571d5c;
+}
+
+.inner-square-grow-top-right-color-eight {
+    background-color: #176622;
+}
+
+.inner-square-grow-top-right-color-nine {
+    background-color: #5c701e;
+}
+
+.inner-square-grow-top-right-color-ten {
+    background-color: #0cc443;
+}
+
+.inner-square-grow-top-right-color-eleven {
+    background-color: #3e5445;
+}
+
+.inner-square-grow-top-right-color-twelve {
+    background-color: #0e888c;
+}
+
+.inner-square-grow-top-right-color-thirteen {
+    background-color: #bfb4ba;
+}
+
+.inner-square-grow-top-right-color-fourteen {
+    background-color: #9c1e22;
+}
+
+
+
+
+/* BOTTOM LEFT SQUARE ---------------------------------------------------------------------- */
+
+.inner-square-main-bottom-left {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+
+.inner-square-grow-bottom-left {
+    position: absolute;
+    top: 0px;
+    left: 75px;
+    width: 0px;
+    height: 0px;
+    transition: all 3s linear;
+}
+
+.color-squares-overlay:hover > a > .inner-square-main-bottom-left > .inner-square-grow-bottom-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 75px;
+    height: 75px;
+    transition: all 3s linear;
+}
+
+.inner-square-grow-bottom-left-color-zero {
+    background-color: #11782c;
+}
+
+.inner-square-grow-bottom-left-color-one {
+    background-color: #e36a2d;
+}
+
+.inner-square-grow-bottom-left-color-two {
+    background-color: #bce663;
+}
+
+.inner-square-grow-bottom-left-color-three {
+    background-color: #204f1e;
+}
+
+.inner-square-grow-bottom-left-color-four {
+    background-color: #f5332c;
+}
+
+.inner-square-grow-bottom-left-color-five {
+    background-color: #37a66b;
+}
+
+.inner-square-grow-bottom-left-color-six {
+    background-color: #1c6dbd;
+}
+
+.inner-square-grow-bottom-left-color-seven {
+    background-color: #943bd4;
+}
+
+.inner-square-grow-bottom-left-color-eight {
+    background-color: #db0fbd;
+}
+
+.inner-square-grow-bottom-left-color-nine {
+    background-color: #f2950a;
+}
+
+.inner-square-grow-bottom-left-color-ten {
+    background-color: #a3d902;
+}
+
+.inner-square-grow-bottom-left-color-eleven {
+    background-color: #376608;
+}
+
+.inner-square-grow-bottom-left-color-twelve {
+    background-color: #3456ed;
+}
+
+.inner-square-grow-bottom-left-color-thirteen {
+    background-color: #2b1a4a;
+}
+
+.inner-square-grow-bottom-left-color-fourteen {
+    background-color: #343136;
+}
+
+
+
+
+/* BOTTOM RIGHT SQUARE ---------------------------------------------------------------------- */
+
+.inner-square-main-bottom-right {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    margin: 0px;
+    padding: 0px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+
+.inner-square-grow-bottom-right {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    transition: all 3s linear;
+}
+
+.color-squares-overlay:hover > a > .inner-square-main-bottom-right > .inner-square-grow-bottom-right {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 75px;
+    height: 75px;
+    transition: all 3s linear;
+}
+
+.inner-square-grow-bottom-right-color-zero {
+    background-color: #69c983;
+}
+
+.inner-square-grow-bottom-right-color-one {
+    background-color: #e65309;
+}
+
+.inner-square-grow-bottom-right-color-two {
+    background-color: #fc681e;
+}
+
+.inner-square-grow-bottom-right-color-three {
+    background-color: #6a9410;
+}
+
+.inner-square-grow-bottom-right-color-four {
+    background-color: #89b588;
+}
+
+.inner-square-grow-bottom-right-color-five {
+    background-color: #378ca6;
+}
+
+.inner-square-grow-bottom-right-color-six {
+    background-color: #09b4e8;
+}
+
+.inner-square-grow-bottom-right-color-seven {
+    background-color: #6e75d4;
+}
+
+.inner-square-grow-bottom-right-color-eight {
+    background-color: #935fb8;
+}
+
+.inner-square-grow-bottom-right-color-nine {
+    background-color: #db0f97;
+}
+
+.inner-square-grow-bottom-right-color-ten {
+    background-color: #12b378;
+}
+
+.inner-square-grow-bottom-right-color-eleven {
+    background-color: #a3bac4;
+}
+
+.inner-square-grow-bottom-right-color-twelve {
+    background-color: #4d0263;
+}
+
+.inner-square-grow-bottom-right-color-thirteen {
+    background-color: #08660d;
+}
+
+.inner-square-grow-bottom-right-color-fourteen {
+    background-color: #b8277b;
+}
+
+

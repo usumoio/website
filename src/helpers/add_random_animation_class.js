@@ -5,7 +5,7 @@
 
 export function addRandomAnimationClass () {
 
-    const randomness = Math.floor(Math.random() * 7);
+    const randomness = Math.floor(Math.random() * 8);
 
     let randomAnimationClass = '';
 
@@ -16,6 +16,7 @@ export function addRandomAnimationClass () {
     // main-button-color-flip
     // main-button-checkered
     // main-button-fade
+    // main-button-color-squares
 
     switch(randomness) {
         case 0:
@@ -39,8 +40,12 @@ export function addRandomAnimationClass () {
         case 6: 
             randomAnimationClass = 'main-button-checkered';
             break;
+        case 7: 
+            randomAnimationClass = 'main-button-color-squares';
+            break;
         default:
             randomAnimationClass = 'main-button-checkered';
+
     }
 
     return randomAnimationClass;
