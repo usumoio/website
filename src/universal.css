@@ -509,12 +509,6 @@ body {
     padding-right: 20px;
 }
 
-.link-as-button {
-    display: inline-block;
-    padding: 35px 15px 35px 15px;
-    margin: -35px -15px -35px -15px;
-}
-
 .link-as-button-font-large {
     font-size: 35px;
 }
@@ -523,5 +517,15 @@ body {
     font-size: 25px;
 }
 
-
+.inner-full-button-box-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+}
 

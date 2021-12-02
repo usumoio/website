@@ -45,6 +45,11 @@ export const MainButton = (propsObject) => {
         <button className={buttonClassName}>
             <Link to={propsObject.link} className={textClassName} onClick={fadeOutAnimation} >{propsObject.buttonText}</Link>
             
+            <Link to={propsObject.link} onClick={fadeOutAnimation} >
+                <div className='inner-full-button-box-link'>
+                </div>
+            </Link>
+
             {(buttonClassNameRandomClass === 'main-button-checkered') && <div className='grid-overlay'>
                 <Link to={propsObject.link} onClick={fadeOutAnimation}>
                     <div className={addRandomGridAnimations()}>
