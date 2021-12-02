@@ -9,16 +9,16 @@ import '../universal.css';
 
 export const BaseTemplate = (propsObject) => {
 
-        const [backgroundSetter, setBackgroundSetter] = useState('unset');
+    const [backgroundSetter, setBackgroundSetter] = useState('unset');
 
-        if(backgroundSetter === 'unset') {
-            addRandomBackgroundImage();
-            setBackgroundSetter('set');
-        }
+    if(backgroundSetter === 'unset') {
+        addRandomBackgroundImage();
+        setBackgroundSetter('set');
+    }
 
     return (
         <>
-            <div className='main-board'>
+            <div id="main-board-style-access-id" className='main-board'>
 
                 {propsObject.nextComponent}
 

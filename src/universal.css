@@ -260,7 +260,13 @@ body {
         max-width: 368px;
         min-height: 400px;
         justify-content: center;
+        transition: all 1s ease-in-out;
     }
+}
+
+.main-board-fade {
+    transition: all 1s ease-in-out;
+    opacity: 0;
 }
 
 @media screen and (min-width: 520px) {
