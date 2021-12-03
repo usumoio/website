@@ -49,6 +49,12 @@ export const Magic = () => {
             isExternal: true,
             buttonText: 'CK',
         },
+        {
+            link: 'https://cardboard-crack.com/',
+            isExternal: true,
+            buttonText: 'Cardboard Crack',
+        },
+        
     ];
 
     return (

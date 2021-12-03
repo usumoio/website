@@ -29,7 +29,13 @@ export const Stuff = () => {
             link: Pdf,
             isExternal: true,
             buttonText: 'Resume',
-        }
+        },
+        {
+            link: 'https://stackoverflow.com/users/1298803/usumoio',
+            isExternal: true,
+            buttonText: 'Stack Overflow',
+        },
+        
     ];
 
     return (

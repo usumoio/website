@@ -5,15 +5,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { BaseTemplate } from './pages/base_template';
-import {About} from './pages/about';
-import {Magic} from './pages/magic';
-import {News} from './pages/news';
-import {Stuff} from './pages/stuff';
-import {Projects} from './pages/projects';
-import {Random} from './pages/random';
-import {History} from './pages/history';
-import {Nature} from './pages/nature';
-import {Home} from './pages/home';
+import { About } from './pages/about';
+import { Magic } from './pages/magic';
+import { News } from './pages/news';
+import { Stuff } from './pages/stuff';
+import { Projects } from './pages/projects';
+import { Random } from './pages/random';
+import { History } from './pages/history';
+import { Computers } from './pages/computers';
+import { Home } from './pages/home';
+import { WebComics } from './pages/web_comics';
 
 
 ReactDOM.render(
@@ -70,9 +71,15 @@ ReactDOM.render(
                     } />
                 } />
                 
-                <Route path="nature" element={
+                <Route path="computers" element={
                     <BaseTemplate nextComponent={
-                        <Nature />
+                        <Computers />
+                    } />
+                } />
+
+                <Route path="webcomics" element={
+                    <BaseTemplate nextComponent={
+                        <WebComics />
                     } />
                 } />
 

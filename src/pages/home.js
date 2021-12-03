@@ -39,9 +39,9 @@ export const Home = () => {
             buttonText: 'History',
         },
         {
-            link: 'nature',
+            link: 'computers',
             isExternal: false,
-            buttonText: 'Nature',
+            buttonText: 'Computers',
         },
         {
             link: 'about',

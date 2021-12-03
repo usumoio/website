@@ -369,11 +369,15 @@ a {
 }
 
 .link-as-button-font-large {
-    font-size: 35px;
+    font-size: 38px;
+}
+
+.link-as-button-font-mid {
+    font-size: 28px;
 }
 
 .link-as-button-font-small {
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .inner-full-button-box-link {

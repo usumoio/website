@@ -6,7 +6,7 @@ import { HeaderSection } from '../components/header_section';
 
 export const News = () => {
 
-    const text = 'Here are some news sources I check regularly. I think it is important for a person to be informed.';
+    const text = 'Here are some news sources I check regularly. I like some of them more than others, but I think its important to keep up with the news.';
 
     const buttonArray = [
         {
@@ -43,6 +43,16 @@ export const News = () => {
             link: 'https://www.cbc.ca/news',
             isExternal: true,
             buttonText: 'The CBC',
+        },
+        {
+            link: 'https://www.cnbc.com/',
+            isExternal: true,
+            buttonText: 'CNBC',
+        },
+        {
+            link: 'https://www.cnn.com/',
+            isExternal: true,
+            buttonText: 'CNN',
         }
     ];
 

@@ -16,7 +16,7 @@ function delay(time) {
 
 export const MainButton = (propsObject) => {
 
-    let textClassName = 'link-as-button' + (propsObject.buttonText.length > 10 ? ' link-as-button-font-small' : ' link-as-button-font-large' );
+    let textClassName = 'link-as-button' + (propsObject.buttonText.length < 8 ? ' link-as-button-font-large' : ( propsObject.buttonText.length < 12 ) ? ' link-as-button-font-mid' : ' link-as-button-font-small' );
 
     let buttonClassNameRandomClass = addRandomAnimationClass();
 
@@ -34,7 +34,7 @@ export const MainButton = (propsObject) => {
 
         await delay(1000);
 
-        navigate(propsObject.link);
+        navigate(`../${propsObject.link}`, { replace: true });
 
         mainBoard.classList.remove('main-board-fade');
     }
