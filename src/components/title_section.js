@@ -8,7 +8,7 @@ export const TitleSection = (propsObject) => {
     const titleSpanList = [];
 
     for(var x = 0; x < propsObject.title.length; x++) {
-        titleSpanList.push(<SingleLetter key={x} singleLetter={propsObject.title[x]} />)
+        titleSpanList.push(<SingleLetter key={x} singleLetter={propsObject.title[x]} />);
     }
 
     return (

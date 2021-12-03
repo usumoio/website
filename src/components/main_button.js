@@ -6,13 +6,10 @@ import { Link, useNavigate } from "react-router-dom";
 import { addRandomAnimationClass } from '../helpers/add_random_animation_class';
 import { addRandomGridAnimations } from '../helpers/add_random_grid_animations';
 import { addRandomSquareColor } from '../helpers/add_random_square_color';
+import { delay } from '../helpers/general_helpers';
 
 import './styles/grid_button_animation.css';
 import './styles/color_squares_animation.css';
-
-function delay(time) {
-    return new Promise( resolve => setTimeout(resolve, time) );
-}
 
 export const MainButton = (propsObject) => {
 
