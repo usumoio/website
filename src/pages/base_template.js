@@ -6,6 +6,7 @@ import { addRandomBackgroundImage } from '../helpers/add_random_background_image
 import {LowerNav} from '../components/lower_nav';
 
 import '../universal.css';
+import '../styles/background.css';
 
 export const BaseTemplate = (propsObject) => {
 

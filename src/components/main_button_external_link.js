@@ -21,8 +21,14 @@ export const MainButtonExternalLink = (propsObject) => {
 
         <button className={buttonClassName}>
             <a className={textClassName} rel="noopener noreferrer" target="_blank" href={propsObject.externalLink} >
-                    {propsObject.buttonText}
+                {propsObject.buttonText}
             </a>
+
+            <a className={textClassName} rel="noopener noreferrer" target="_blank" href={propsObject.externalLink} >
+                <div className='inner-full-button-box-link'>
+                </div>
+            </a>
+
             {(buttonClassNameRandomClass === 'main-button-checkered') &&  <div className='grid-overlay'>
                 <a className={textClassName} rel="noopener noreferrer" target="_blank" href={propsObject.externalLink} >
                     <div className={addRandomGridAnimations()}>

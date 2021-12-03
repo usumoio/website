@@ -1,0 +1,388 @@
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* css doc controlling the background styles                         */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+/* HUGE SCREENS AND UP */
+@media screen and (min-width: 551px) {
+    .dive {
+        background: url(../assets/deeper-dive.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .tech {
+        background: url(../assets/alien-tech.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .cart {
+        background: url(../assets/Cartographic.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .cell {
+        background: url(../assets/Cellular.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .volc {
+        background: url(../assets/Volcanic.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .org {
+        background: url(../assets/Organic.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .strand {
+        background: url(../assets/Strand.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .struct {
+        background: url(../assets/Structural-2.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .seven {
+        background: url(../assets/747-8-1.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .angular {
+        background: url(../assets/angular.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .burst {
+        background: url(../assets/burst.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .inner {
+        background: url(../assets/inner-clarity.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .julia {
+        background: url(../assets/julia-variation.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .mandel {
+        background: url(../assets/mandelbrot-graveyard.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .planet {
+        background: url(../assets/Planet-M.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .quilt {
+        background: url(../assets/Quilt3.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .recur {
+        background: url(../assets/Recursive.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .second {
+        background: url(../assets/second-chakra.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .plateau {
+        background: url(../assets/second-plateau.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .space {
+        background: url(../assets/Spaceflight.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .swiss {
+        background: url(../assets/swiss-fractal.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .tissue {
+        background: url(../assets/Tissue.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .jazz {
+        background: url(../assets/jazz.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .angle {
+        background: url(../assets/angled.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .depth {
+        background: url(../assets/in-depth.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+
+    .unravel {
+        background: url(../assets/unraveled.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        transition: all 3s ease-in-out;
+    }
+}
+
+/* MIDDLE OF THE ROAD SCREENS AND DOWN */
+@media screen and (max-width: 550px) {
+    .dive {
+        background: url(../assets/deeper-dive.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .tech {
+        background: url(../assets/alien-tech.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .cart {
+        background: url(../assets/Cartographic.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .cell {
+        background: url(../assets/Cellular.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .volc {
+        background: url(../assets/Volcanic.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .org {
+        background: url(../assets/Organic.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .strand {
+        background: url(../assets/Strand.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .struct {
+        background: url(../assets/Structural-2.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .seven {
+        background: url(../assets/747-8-1.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .angular {
+        background: url(../assets/angular.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .burst {
+        background: url(../assets/burst.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .inner {
+        background: url(../assets/inner-clarity.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .julia {
+        background: url(../assets/julia-variation.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .mandel {
+        background: url(../assets/mandelbrot-graveyard.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .planet {
+        background: url(../assets/Planet-M.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .quilt {
+        background: url(../assets/Quilt3.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .recur {
+        background: url(../assets/Recursive.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .second {
+        background: url(../assets/second-chakra.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .plateau {
+        background: url(../assets/second-plateau.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .space {
+        background: url(../assets/Spaceflight.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .swiss {
+        background: url(../assets/swiss-fractal.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .tissue {
+        background: url(../assets/Tissue.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .jazz {
+        background: url(../assets/jazz.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .angle {
+        background: url(../assets/angled.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .depth {
+        background: url(../assets/in-depth.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+
+    .unravel {
+        background: url(../assets/unraveled.jpg);
+        background-attachment: fixed;
+        transition: all 3s ease-in-out;
+    }
+}
+.preload-images {
+    background: url(../assets/deeper-dive.jpg) no-repeat -9999px -9999px,
+        url(../assets/alien-tech.jpg) no-repeat -9999px -9999px,
+        url(../assets/Cartographic.jpg) no-repeat -9999px -9999px,
+        url(../assets/Cellular.jpg) no-repeat -9999px -9999px,
+        url(../assets/Volcanic.jpg) no-repeat -9999px -9999px,
+        url(../assets/Organic.jpg) no-repeat -9999px -9999px,
+        url(../assets/Strand.jpg) no-repeat -9999px -9999px,
+        url(../assets/Structural-2.jpg) no-repeat -9999px -9999px,
+        url(../assets/747-8-1.jpg) no-repeat -9999px -9999px,
+        url(../assets/angular.jpg) no-repeat -9999px -9999px,
+        url(../assets/burst.jpg) no-repeat -9999px -9999px,
+        url(../assets/inner-clarity.jpg) no-repeat -9999px -9999px,
+        url(../assets/julia-variation.jpg) no-repeat -9999px -9999px,
+        url(../assets/mandelbrot-graveyard.jpg) no-repeat -9999px -9999px,
+        url(../assets/Planet-M.jpg) no-repeat -9999px -9999px,
+        url(../assets/Quilt3.jpg) no-repeat -9999px -9999px,
+        url(../assets/Recursive.jpg) no-repeat -9999px -9999px,
+        url(../assets/second-chakra.jpg) no-repeat -9999px -9999px,
+        url(../assets/second-plateau.jpg) no-repeat -9999px -9999px,
+        url(../assets/Spaceflight.jpg) no-repeat -9999px -9999px,
+        url(../assets/swiss-fractal.jpg) no-repeat -9999px -9999px,
+        url(../assets/Tissue.jpg) no-repeat -9999px -9999px,
+        url(../assets/jazz.jpg) no-repeat -9999px -9999px,
+        url(../assets/angled.jpg) no-repeat -9999px -9999px,
+        url(../assets/in-depth.jpg) no-repeat -9999px -9999px,
+        url(../assets/unraveled.jpg) no-repeat -9999px -9999px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    animation: background-fade 8s ease-in-out;
+    margin: 0px;
+}
+
+
