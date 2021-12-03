@@ -236,61 +236,6 @@ a {
     justify-content: center;
 }
 
-.nav-home {
-    padding: 6px 6px 6px 6px;
-    margin: 0px 0px 0px 0px;
-    border-width: 4px;
-    border-radius: 2px;
-    border-color: var(--main-color);
-    border-style: solid;
-    max-width: 138px;
-    min-width: 138px;
-    float: left;
-    background-color: white;
-    text-align: center;
-    max-height: 18px;
-    transition: all 5s linear;
-}
-
-.nav-about {
-    padding: 6px 6px 6px 6px;
-    margin: 0px 0px 0px 0px;
-    border-width: 4px;
-    border-radius: 2px;
-    border-color: var(--main-color);
-    border-style: solid;
-    max-width: 138px;
-    min-width: 138px;
-    float: right;
-    background-color: white;
-    text-align: center;
-    max-height: 18px;
-    transition: all 15s;
-}
-
-@media screen and (min-width: 520px) {
-    .nav-home:hover {
-        background-color: var(--background-purple);
-        margin-top: -100px;
-        max-height: 18px;
-        transition: all 5s linear;
-    }
-
-    .nav-about:hover {
-        background-color: var(--background-purple);
-        margin-top: 400px;
-        max-height: 18px;
-        transition: all 15s;
-    }
-}
-
-.nav-link {
-    font-size: 15px;
-    display: inline-block;
-    vertical-align: middle;
-    width: 100%;
-}
-
 .main-button {
     min-width: 158px;
     max-width: 158px;

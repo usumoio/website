@@ -1,0 +1,349 @@
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* css file for the nav buttons on the bottom of each page           */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+
+.nav-home {
+    padding: 6px 6px 6px 6px;
+    margin: 0px 0px 0px 0px;
+    border-width: 4px;
+    border-radius: 2px;
+    border-color: var(--main-color);
+    border-style: solid;
+    max-width: 138px;
+    min-width: 138px;
+    float: left;
+    background-color: white;
+    text-align: center;
+    max-height: 18px;
+    position: relative;
+}
+
+.nav-about {
+    padding: 6px 6px 6px 6px;
+    margin: 0px 0px 0px 0px;
+    border-width: 4px;
+    border-radius: 2px;
+    border-color: var(--main-color);
+    border-style: solid;
+    max-width: 138px;
+    min-width: 138px;
+    float: right;
+    background-color: white;
+    text-align: center;
+    max-height: 18px;
+    position: relative;
+}
+
+.nav-link {
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.nav-grid-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 30px;
+    max-height: 30px;
+}
+
+.inner-nav-grid-square {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 3px;
+    height: 3px;
+    transition: all 2s ease-in-out;
+    opacity: 0.8;
+}
+
+.nav-grid-overlay:hover > a > .time-one{
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-grid-overlay:hover > a > .time-two{
+    transition: all 1s ease-in-out;
+}
+
+.nav-grid-overlay:hover > a > .time-three{
+    transition: all 1.5s ease-in-out;
+}
+
+.nav-grid-overlay:hover > a > .time-four{
+    transition: all 2s ease-in-out;
+}
+
+.nav-grid-overlay:hover > a > .time-five{
+    transition: all 2.5s ease-in-out;
+}
+
+.nav-grid-overlay:hover > a > .time-six{
+    transition: all 3s ease-in-out;
+}
+
+.nav-grid-overlay:hover > a > .time-seven{
+    transition: all 3.5s ease-in-out;
+}
+
+.nav-grid-overlay:hover > a > .time-eight{
+    transition: all 4s ease-in-out;
+}
+
+.nav-grid-overlay:hover > a > .time-nine{
+    transition: all 4.5s ease-in-out;
+}
+
+.nav-grid-overlay:hover > a > .time-ten{
+    transition: all 5s ease-in-out;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-zero {
+    background-color: #0fbf3e;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-one {
+    background-color: #db5142;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-two {
+    background-color: #bfab2a;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-three {
+    background-color: #a6f200;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-four {
+    background-color: #88b59d;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-five {
+    background-color: #567a85;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-six {
+    background-color: #826ed4;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-seven {
+    background-color: #45377a;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-eight {
+    background-color: #a602b5;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-nine {
+    background-color: #a8db0f;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-ten {
+    background-color: #31db0f;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-eleven {
+    background-color: #3112b8;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twelve {
+    background-color: #c049de;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirteen {
+    background-color: #a88503;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourteen {
+    background-color: #595239;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fifteen {
+    background-color: #418052;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-sixteen {
+    background-color: #75190f;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-seventeen {
+    background-color: #e6d463;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-eighteen {
+    background-color: #5a8241;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-nineteen {
+    background-color: #195c38;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twenty {
+    background-color: #94c9ff;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twentyone {
+    background-color: #2b1d61;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twentytwo {
+    background-color: #571d5c;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twentythree {
+    background-color: #176622;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twentyfour {
+    background-color: #5c701e;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twentyfive {
+    background-color: #0cc443;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twentysix {
+    background-color: #3e5445;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twentyseven {
+    background-color: #0e888c;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twentyeight {
+    background-color: #bfb4ba;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-twentynine {
+    background-color: #9c1e22;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirty {
+    background-color: #11782c;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirtyone {
+    background-color: #e36a2d;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirtytwo {
+    background-color: #bce663;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirtythree {
+    background-color: #204f1e;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirtyfour {
+    background-color: #f5332c;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirtyfive {
+    background-color: #37a66b;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirtysix {
+    background-color: #1c6dbd;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirtyseven {
+    background-color: #943bd4;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirtyeight {
+    background-color: #db0fbd;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-thirtynine {
+    background-color: #f2950a;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourty {
+    background-color: #a3d902;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourtyone {
+    background-color: #376608;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourtytwo {
+    background-color: #3456ed;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourtythree {
+    background-color: #2b1a4a;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourtyfour {
+    background-color: #343136;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourtyfive {
+    background-color: #69c983;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourtysix {
+    background-color: #e65309;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourtyseven {
+    background-color: #fc681e;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourtyeight {
+    background-color: #6a9410;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fourtynine {
+    background-color: #89b588;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fifty {
+    background-color: #378ca6;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fiftyone {
+    background-color: #09b4e8;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fiftytwo {
+    background-color: #6e75d4;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fiftythree {
+    background-color: #935fb8;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fiftyfour {
+    background-color: #db0f97;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fiftyfive {
+    background-color: #12b378;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fiftysix {
+    background-color: #a3bac4;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fiftyseven {
+    background-color: #4d0263;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fiftyeight {
+    background-color: #08660d;
+}
+
+.nav-grid-overlay:hover > a > .inner-nav-grid-square-color-fiftynine {
+    background-color: #b8277b;
+}
+
+
