@@ -67,9 +67,21 @@ a {
     }
 
     .nav-section {
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 80px 0px;
         min-width: 336px;
         align-self: center;
+    }
+
+    .text-section-about {
+        background-color: var(--main-background-color);
+        border-color: var(--main-color);
+        margin: 25px 16px 25px 16px;
+        border-width: 4px;
+        border-radius: 2px;
+        border-style: solid;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -110,9 +122,21 @@ a {
     }
 
     .nav-section {
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 60px 0px;
         min-width: 336px;
         align-self: center;
+    }
+
+    .text-section-about {
+        background-color: var(--main-background-color);
+        border-color: var(--main-color);
+        margin: 25px 16px 25px 16px;
+        border-width: 4px;
+        border-radius: 2px;
+        border-style: solid;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -157,11 +181,28 @@ a {
         display: flex;
         justify-content: space-between;
         min-height: 85px;
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 40px 0px;
     }
 
     .nav-button-mobile {
         padding: 0px 0px 20px 0px;
+    }
+
+    .text-section-about {
+        background-color: var(--main-background-color);
+        border-color: var(--main-color);
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left:  auto;
+        margin-right:  auto;
+        border-width: 4px;
+        max-width: 220px;
+        min-width: 220px;
+        border-radius: 2px;
+        border-style: solid;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -360,12 +401,6 @@ a {
     padding-right: 8px;
     margin-block-start: 0em;
     margin-block-end: 0em;
-}
-
-.text-section-about {
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .link-as-button-font-large {
