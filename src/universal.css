@@ -65,11 +65,17 @@ a {
         font-weight: 550;
         text-align: center;
     }
+
+    .nav-section {
+        padding: 0px 0px 20px 0px;
+        min-width: 336px;
+        align-self: center;
+    }
 }
 
 
 /* MIDDLE OF THE ROAD SCREENS */
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 356px) and (max-width: 550px) {
     .main-board {
         margin-top: 10px;
         margin-left: auto;
@@ -101,6 +107,12 @@ a {
         font-size: 42px;
         font-weight: 550;
         text-align: center;
+    }
+
+    .nav-section {
+        padding: 0px 0px 20px 0px;
+        min-width: 336px;
+        align-self: center;
     }
 }
 
@@ -138,6 +150,19 @@ a {
         font-weight: 550;
         text-align: center;
     }
+
+    .nav-section {
+        align-self: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        min-height: 85px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .nav-button-mobile {
+        padding: 0px 0px 20px 0px;
+    }
 }
 
 .main-board-fade {
@@ -161,12 +186,6 @@ a {
 .title-section > span:hover {
     color: white;
     transition: 2s;
-}
-
-.nav-section {
-    padding: 0px 0px 20px 0px;
-    min-width: 336px;
-    align-self: center;
 }
 
 .button-section {
@@ -215,9 +234,7 @@ a {
         max-height: 18px;
         transition: all 5s linear;
     }
-}
 
-@media screen and (min-width: 520px) {
     .nav-about:hover {
         background-color: var(--background-purple);
         margin-top: 400px;

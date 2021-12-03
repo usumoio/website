@@ -43,8 +43,8 @@ export const LowerNav = () => {
     return (
 
         <div className='nav-section'>
-            <span className='nav-home'><Link className='nav-link' to="/" onClick={fadeOutAnimationHome}>Home</Link></span>
-            <span className='nav-about'><Link className='nav-link' to="/about" onClick={fadeOutAnimationAbout}>About</Link></span>
+            <span className='nav-home nav-button-mobile'><Link className='nav-link' to="/" onClick={fadeOutAnimationHome}>Home</Link></span>
+            <span className='nav-about nav-button-mobile'><Link className='nav-link' to="/about" onClick={fadeOutAnimationAbout}>About</Link></span>
         </div>
 
     );
