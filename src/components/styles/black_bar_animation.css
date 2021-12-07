@@ -1,0 +1,131 @@
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* css file for the black bar animation that is used on the          */
+/* main button                                                       */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+.black-bar-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    background-color: transparent;
+    transition: all 1.5s ease-in-out;
+}
+
+.inner-black-bar {
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 1px;
+    transition: all 3s ease-in-out;
+}
+
+.black-bar-overlay:hover > a > .time-one-black-bar{
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.black-bar-overlay:hover > a > .time-two-black-bar{
+    transition: all 1s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-three-black-bar{
+    transition: all 1.5s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-four-black-bar{
+    transition: all 2s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-five-black-bar{
+    transition: all 2.5s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-six-black-bar{
+    transition: all 3s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-seven-black-bar{
+    transition: all 3.5s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-eight-black-bar{
+    transition: all 4s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-nine-black-bar{
+    transition: all 4.5s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-ten-black-bar{
+    transition: all 5s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-eleven-black-bar{
+    transition: all 5.5s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-twelve-black-bar{
+    transition: all 6s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-thirteen-black-bar{
+    transition: all 6.5s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-fourteen-black-bar{
+    transition: all 7s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-fiveteen-black-bar{
+    transition: all 7.5s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-sixteen-black-bar{
+    transition: all 8s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-seventeen-black-bar{
+    transition: all 8.5s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-eighteen-black-bar{
+    transition: all 9s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-nineteen-black-bar{
+    transition: all 9.5s ease-in-out;
+    background-color: black;
+}
+
+.black-bar-overlay:hover > a > .time-twenty-black-bar{
+    transition: all 10s ease-in-out;
+    background-color: black;
+}
+
+
+

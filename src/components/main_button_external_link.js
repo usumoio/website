@@ -5,9 +5,11 @@ import React from 'react';
 import { addRandomAnimationClass } from '../helpers/add_random_animation_class';
 import { addRandomGridAnimations } from '../helpers/add_random_grid_animations';
 import { addRandomSquareColor } from '../helpers/add_random_square_color';
+import { BlackBarAnimation } from './black_bar_animation';
 
 import './styles/grid_button_animation.css';
 import './styles/color_squares_animation.css';
+import './styles/black_bar_animation.css';
 
 export const MainButtonExternalLink = (propsObject) => {
 
@@ -101,6 +103,12 @@ export const MainButtonExternalLink = (propsObject) => {
                 </a>
             </div>}
 
+            {(buttonClassNameRandomClass === 'main-button-black-bar') && <div className='black-bar-overlay'>
+                <a className={textClassName} rel="noopener noreferrer" target="_blank" href={propsObject.externalLink} >
+                    <BlackBarAnimation toLink={propsObject.externalLink} />
+                </a>
+
+            </div>}
 
         </button>
 

@@ -7,9 +7,11 @@ import { addRandomAnimationClass } from '../helpers/add_random_animation_class';
 import { addRandomGridAnimations } from '../helpers/add_random_grid_animations';
 import { addRandomSquareColor } from '../helpers/add_random_square_color';
 import { delay } from '../helpers/general_helpers';
+import { BlackBarAnimation } from './black_bar_animation';
 
 import './styles/grid_button_animation.css';
 import './styles/color_squares_animation.css';
+import './styles/black_bar_animation.css';
 
 export const MainButton = (propsObject) => {
 
@@ -37,6 +39,7 @@ export const MainButton = (propsObject) => {
     }
 
 
+    // TODO you can remove the base animation link if you want some cleanup
     return (
 
         <button className={buttonClassName}>
@@ -117,6 +120,10 @@ export const MainButton = (propsObject) => {
                         <div className={addRandomSquareColor(4)}></div>
                     </div>
                 </Link>
+            </div>}
+
+            {(buttonClassNameRandomClass === 'main-button-black-bar') && <div className='black-bar-overlay'>
+                <BlackBarAnimation toLink={propsObject.link} />
             </div>}
 
         </button>
