@@ -376,13 +376,5 @@
         url(../assets/unraveled.jpg) no-repeat -9999px -9999px;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
-body {
-    animation: background-fade 8s ease-in-out;
-    margin: 0px;
-}
 
 
